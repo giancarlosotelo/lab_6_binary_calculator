@@ -13,7 +13,7 @@ spec:
         app: binarycalculator
     spec:
       containers:
-        - image: <repo-path>/binarycalculator
+        - image: northamerica-northeast2-docker.pkg.dev/project-f2995e59-f5d2-491f-ba8/lab-mvn-design/binarycalculator
           imagePullPolicy: Always
           name: binarycalculator
           ports:
